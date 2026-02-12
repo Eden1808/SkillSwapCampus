@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvMatchSkill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill:"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvMatchWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With:"/>
+
+    <TextView
+        android:id="@+id/tvMatchRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role:"/>
+</LinearLayout>

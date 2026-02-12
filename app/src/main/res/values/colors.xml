@@ -1,0 +1,12 @@
+<resources>
+    <color name="bg">#F6F7FB</color>
+    <color name="card">#FFFFFF</color>
+
+    <color name="primary">#6C63FF</color>
+    <color name="primaryDark">#5148FF</color>
+
+    <color name="textMain">#111827</color>
+    <color name="textSub">#6B7280</color>
+
+    <color name="stroke">#E5E7EB</color>
+</resources>
