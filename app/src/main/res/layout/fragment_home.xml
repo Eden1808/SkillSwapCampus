@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
@@ -7,6 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="20dp">
@@ -19,22 +21,24 @@
             android:backgroundTint="@color/card"
             android:elevation="4dp"
             android:padding="16dp"
-            app:cardCornerRadius="18dp"
-            xmlns:app="http://schemas.android.com/apk/res-auto">
+            app:cardCornerRadius="18dp">
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:gravity="center_horizontal"
                 android:padding="16dp">
 
                 <TextView
-                    android:text="SkillSwap Campus"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
+                    android:text="SkillSwap Campus 💜"
                     android:textSize="22sp"
-                    android:textColor="@color/textMain"/>
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
 
                 <TextView
                     android:id="@+id/tvWelcome"

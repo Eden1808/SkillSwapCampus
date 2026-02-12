@@ -30,8 +30,8 @@ public class RequestsFragment extends Fragment {
     private ArrayList<RequestItem> requestsList;
     private RequestAdapter adapter;
 
-    private enum Mode { INCOMING, MY_REQUESTS }
-    private Mode currentMode = Mode.INCOMING;
+    private enum Mode { NONE, INCOMING, MY_REQUESTS }
+    private Mode currentMode = Mode.NONE;
 
     @Nullable
     @Override
@@ -66,11 +66,16 @@ public class RequestsFragment extends Fragment {
         rvRequests.setLayoutManager(new LinearLayoutManager(requireContext()));
         rvRequests.setAdapter(adapter);
 
-        // ברירת מחדל: Incoming
-        showIncoming();
+        showNone();
 
         btnIncoming.setOnClickListener(v -> showIncoming());
         btnMyRequests.setOnClickListener(v -> showMyRequests());
+    }
+    private void showNone() {
+        currentMode = Mode.NONE;
+        tvSectionTitle.setText("Choose Incoming or My requests");
+        requestsList.clear();
+        adapter.notifyDataSetChanged();
     }
 
     private void showIncoming() {
@@ -94,6 +99,10 @@ public class RequestsFragment extends Fragment {
             Toast.makeText(requireContext(), "No user logged in", Toast.LENGTH_SHORT).show();
             return;
         }
+        if (currentMode == Mode.NONE) {
+            return;
+        }
+
 
         String myUid = user.getUid();
 
