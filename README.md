@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="logo.png" width="280"/>
+</p>
+
+<h1 align="center">SkillSwap Campus 🎓</h1>
+
+<p align="center">
+  <b>Exchange Skills. Build Connections. Learn Together.</b>
+</p>
+
+<p align="center">
+  Android | Java | Firebase | Realtime Database
+</p>
+
 # 🎓 SkillSwap Campus
 
 <p align="center">
