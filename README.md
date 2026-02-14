@@ -140,10 +140,6 @@ The system is powered by Firebase Realtime Database and built entirely in Java.
 
 ---
 
-⚠️ תוסיפי תיקיה בשם screenshots בתוך הפרויקט ותשימי שם תמונות מסך אמיתיות ואז זה יראה וואו.
-
----
-
 # 🎥 Demo GIF
 
 ![App Demo](screenshots/demo.gif)
@@ -166,7 +162,8 @@ The system is powered by Firebase Realtime Database and built entirely in Java.
 # 👩‍💻 Developed By
 
 Eden Shmatman
-B.Sc Computer Science Student
+Shaked Ashton
+B.Sc Computer Science Student's
 
 ---
 
