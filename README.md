@@ -175,7 +175,7 @@ The system is powered by Firebase Realtime Database and built entirely in Java.
 
 # 👩‍💻 Developed By
 
-Eden Shmatman
+Eden Shmatman & 
 Shaked Ashton
 B.Sc Computer Science Student's
 
